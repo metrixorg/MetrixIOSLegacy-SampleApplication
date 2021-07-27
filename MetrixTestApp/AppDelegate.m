@@ -19,13 +19,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSString *yourAppId = @"gvttfcnpeimctyf";
+    NSString *yourAppId = @"lcqmfsnvhzznvhe";
     
     NSString *environment = MXEnvironmentSandbox;
     
     MXConfig *metrixConfig = [MXConfig configWithAppId:yourAppId environment:environment];
     
-    [metrixConfig setTrackerToken:@"wyrxsz"];
+    [metrixConfig setTrackerToken:@"uevt4h"];
     [metrixConfig setDelegate:self];
 
     [Metrix appDidLaunch:metrixConfig];

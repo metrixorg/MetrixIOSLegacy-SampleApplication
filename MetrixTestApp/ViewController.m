@@ -35,12 +35,12 @@
         myAttributes[@"product_name"] = @"shirt";
         myAttributes[@"type"] = @"sport";
         myAttributes[@"size"] = @"large";
-        MXCustomEvent *event = [MXCustomEvent newEvent:@"msdok" attributes:myAttributes metrics:myMetrics];
+        MXCustomEvent *event = [MXCustomEvent newEvent:@"jqgjh" attributes:myAttributes metrics:myMetrics];
         [Metrix trackCustomEvent:event];
 }
 
 - (IBAction)sendRevenueClick:(id)sender {
-    [Metrix trackRevenue:@"giaoj" withValue:@12000 currency:IRR orderId:@"myOrderId"];
+    [Metrix trackRevenue:@"prfrn" withValue:@12000 currency:IRR orderId:@"myOrderId"];
 }
 
 - (IBAction)getAttributionClick:(id)sender {
